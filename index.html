@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+  <title>Document</title>
+  <!-- css 링크 -->
+  <link rel="stylesheet" href="style.css">
+  <!-- google font -->
+  <link href="https://fonts.googleapis.com/css2?family=Dongle&display=swap" rel="stylesheet">
+  <!-- 외부 javascript 링크 -->
+  <script src="script.js"></script>
+</head>
+<body>
+  <div class="root">
+    <header>
+      주사위 눈 맞추기 게임
+    </header>
+    <main>
+      <section id="diceSection"></section>
+      <section id="formSection"></section>
+      <section id="answerSection"></section>
+      <section id="btnSection">
+        <button id="btn" onclick="show();">
+          시작
+        </button>
+        <button id="btn2" onclick="showRate();">
+          내 승률은?
+        </button>
+      </section>
+      <section id="rateSection"></section>
+    </main>
+  </div>
+</body>
+</html>
