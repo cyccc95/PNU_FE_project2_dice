@@ -1,0 +1,97 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Dongle', sans-serif;
+}
+header {
+  font-size: 3rem;
+  height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: #1C6758;
+  color: #eef2e6;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  height: 90vh;
+}
+
+#diceSection {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  height: 30%;
+}
+
+#formSection {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  height: 15%;
+}
+
+#formSection form {
+  display: flex;
+  flex-direction: row;
+}
+
+#formSection form div {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
+#formSection label {
+  font-size: 30px;
+}
+
+#answerSection {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  height: 15%;
+  display: none;
+}
+
+#btnSection {
+  height: 20%;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+}
+button {
+  font-size: 2rem;
+  border: none;
+  border-radius: 10px;
+  width: 50vw;
+  height: 20vh;
+  max-width: 200px;
+  max-height: 50px;
+  background-color: #3d8361;
+  color: #eef2e6;
+  margin-bottom: 10px;
+}
+
+button:hover, button:active {
+  background-color: #D6CDA4;
+  color: #3d8361;
+}
+
+#rateSection {
+  height: 30%;
+  text-align: center;
+  font-size: 50px;
+  margin-top: 0;
+  display: none;
+}
+
+
