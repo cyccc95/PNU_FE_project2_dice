@@ -1,5 +1,5 @@
 # Javascript dice game
-### 웹서비스
+### Web service
 + https://cyccc95.github.io/PNU_FE_project2_dice/
 ### HTML
 + Semantic Tag
