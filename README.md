@@ -10,4 +10,6 @@
 + DOM
 + Selector
 + EventListener
++ Function
++ Conditional, repetitive statement
 
